@@ -35,6 +35,8 @@ router.post("/login", (req, res) => {
     });
 });
 
+////hey
+
 router.get("/logout", (req, res) => {
   if (req.session) {
     req.session.destroy(error => {
